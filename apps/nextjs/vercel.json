@@ -1,6 +1,5 @@
 {
-  "buildCommand": "cd ../.. && pnpm turbo run build --filter=nextjs",
+  "buildCommand": "cd ../.. && pnpm turbo run build --filter=@acme/nextjs",
   "installCommand": "cd ../.. && pnpm install",
-  "framework": "nextjs",
-  "outputs": [".next/**"]
+  "framework": "nextjs"
 }
